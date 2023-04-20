@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+   /* background-image: url("../image/signupbackground.jpg"); */
+ background-size: cover;
+ background-repeat: no-repeat;
+ opacity: .7;
+
+  
+ } 
+ .home_page_linke{
+  text-decoration: none;
+ }
+
+header{
+  position:absolute;
+  top:100px;
+  right:130px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 500px;
+background:linear-gradient(to left,blue,purple,black);
+  border-radius: 20px 20px 0px 0px;
+  -webkit-border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  -ms-border-radius: 20px 20px 0px 0px;
+  -o-border-radius: 20px 20px 0px 0px;
+}
+h2{
+  position:relative;
+color:white;
+top:40px;
+left:80px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header ul{
+  position: relative;
+  top:80px;
+  left:40px;
+  color: white;
+}
+
+#uname,#email,#number,#password,#cpass{
+  padding: 3px 30px;
+  color:rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#s-btn{
+  position: absolute;
+  padding:3px 40px;
+  top:480px;
+  right:270px;
+}
+.fpassword{
+  position: absolute;
+  color:white;
+  top:400px;
+  left:1090px;
+ 
+  font-size: 15px;
+}
+.signup_link{
+  position: absolute;
+  color:white;
+  top:400px;
+  right:200px;
+ 
+  font-size: 15px;
+}
